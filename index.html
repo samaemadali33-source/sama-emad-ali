@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types, Type Conversion & Validation</title>
+</head>
+<body>
+    <script>
+        
+        let originalValue = prompt("Enter a number:");
+        
+       
+        let typeBefore = typeof originalValue;
+        
+    
+        let convertedValue = Number(originalValue);
+        
+       
+        let typeAfter = typeof convertedValue;
+        
+     
+        alert("RESULT" +
+              "Original Value: " + originalValue + "" +
+              "Type Before: " + typeBefore + "" +
+              "Converted Value: " + convertedValue + "" +
+              "Type After: " + typeAfter);
+
+        console.log("Original Value:", originalValue);
+        console.log("Type Before:", typeBefore);
+        console.log("Converted Value:", convertedValue);
+        console.log("Type After:", typeAfter);
+    </script>
+</body>
+</html>
